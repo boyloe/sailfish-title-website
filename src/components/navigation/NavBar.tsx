@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import SailfishLogo from '../../assets/Logo/Black on Transparent.png'
+import SailfishLogo from '../../assets/Logo/Grayscale on Transparent.png'
 
 
-export const NavBar:React.FC<{}> = () => {
+export const NavBar:React.FC = () => {
     return (
         <nav className="nav-bar">
             <img className="logo" id="nav-bar-logo" src={SailfishLogo} alt="company-logo" />
