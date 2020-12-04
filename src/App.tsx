@@ -1,13 +1,12 @@
 import React from 'react';
-import SailFishLogo from './assets/Logo/Black on Transparent.png'
 import './App.css'
+import { NavBarRouting } from './components/navigation/NavBarRouting';
+
 
 function App() {
-  return (
-    <div className="App">
-        
-    </div>
-  );
+    return (
+      <NavBarRouting />
+    )
 }
 
 export default App;
