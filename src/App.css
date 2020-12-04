@@ -52,6 +52,24 @@ table {
 
 /* Styling begins */
 
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 48px;
+}
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 24px;
+}
+
+
+
 .nav-bar {
   background-color: #DDFFF7;
   color: white;
@@ -113,6 +131,20 @@ z-index: -1;
   position: absolute;
   width: auto;
   z-index: 1;
-  filter: opacity(100%)
+  /* filter: opacity(100%) */
+}
+
+.page-content-container {
+  display: flex;
+  justify-content: center;
+}
+
+#company-info-container {
+  max-width: 20%;
+  margin-right: 5em;
+}
+
+#blog-post-title, #company-info-title {
+  font-weight: 700;
 }
 
