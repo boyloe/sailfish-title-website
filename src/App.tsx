@@ -5,8 +5,7 @@ import { NavBarRouting } from './components/navigation/NavBarRouting';
 
 function App() {
     return (
-      <NavBarRouting />
-      
+      <NavBarRouting />      
     )
 }
 
