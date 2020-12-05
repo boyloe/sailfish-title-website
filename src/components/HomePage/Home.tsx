@@ -7,7 +7,7 @@ export const Home:React.FC = () => {
     return (
         <div className="home-page">
             <Banner />
-            <PageContentContainer />
+            <PageContentContainer /> 
         </div>
     )
 }
